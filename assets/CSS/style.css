@@ -1,0 +1,88 @@
+/* Estilos gerais */
+body {
+    background-image: url('/assets/IMG/Design\ sem\ nome.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1.myTitle {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+}
+
+h2 {
+    color: #0c500c;
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2.contactTitle {
+    color: #0c500c;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/* Estilos para a lista de plantas */
+.plant-list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.plant-list li {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: transform 0.3s ease; /* Adicione uma transição para suavizar o efeito */
+}
+
+.plant-list li:hover {
+    transform: scale(1.1); /* Aumenta a escala em 10% quando o mouse estiver sobre o item */
+}
+
+.plant-list img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para a seção de contato */
+.contact {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+    color: #fff;
+}
