@@ -7,7 +7,7 @@ Galeria de Plantas: Navegue por uma ampla seleção de fotos de nossas plantas, 
 Contato Conosco: Entre em contato conosco facilmente para fazer encomendas ou esclarecer dúvidas através do formulário de contato ou informações de contato fornecidas.
 
 # Tecnologias Utilizadas
-HTML5
-CSS3
-JavaScript
-Responsivo para funcionar em dispositivos móveis
+HTML5</br>
+CSS3</br>
+JavaScript</br>
+Responsivo para funcionar em dispositivos móveis</br>
