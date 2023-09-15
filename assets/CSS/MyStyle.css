@@ -80,7 +80,24 @@ h2.contactTitle {
     border: 1px solid #ddd;
 }
 
-
+.testUl {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha quando não houver espaço suficiente */
+    justify-content: flex-start; /* Alinha as imagens à esquerda */
+    gap: 20px; /* Espaço entre as imagens (pode ajustar conforme necessário) */
+  }
+  
+  .imgplants {
+    background: red;
+    flex: 0 0 calc(33.33% - 20px); /* Define o tamanho das divs de imagem, ajustando o valor conforme necessário */
+    box-sizing: border-box; /* Garante que a largura inclua margens e preenchimento */
+  }
+  
+  .myImg {
+    max-width: 100%; /* Garante que a imagem não ultrapasse sua div pai */
+  }
+  
 
 /* Estilos para o rodapé */
 footer {
